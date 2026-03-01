@@ -1,0 +1,19 @@
+{
+  "name": "planka-slack-app",
+  "version": "1.0.0",
+  "description": "Slack app that unfurls Planka card links into rich previews",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.19.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
